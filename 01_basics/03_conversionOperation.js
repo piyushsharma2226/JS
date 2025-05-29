@@ -68,5 +68,49 @@ let newSomeNumber = String(someNumber);
 console.log(typeof newSomeNumber);//string
 console.log(newSomeNumber);//38
 
+/*************************OPERATIONS************************ */
+
+let val = 3;
+let negValue = -val;
+console.log(negValue); // -3
+
+/*
+
+console.log(2+2);//4
+console.log(2-2);//0
+console.log(2*2);//4
+console.log(2/2);//1
+console.log(2**2);//4
+console.log(2%2);//0
+
+*/
+
+let str1 = "Piyush";
+let str2 = " Sharma";
+
+let str3 = str1+str2;
+console.log(str3); //Piyush Sharma
+
+//-------------------------------------
+
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+
+console.log("1" + 2 + 2); //122
+console.log(2 + 2 + "1"); //41
+
+//-------------POST-INCREMENT AND PRE-INCREMENT-------------------------
+
+let gameCounter = 100;
+gameval = gameCounter++; // postincrement
+console.log(gameval); // 100
+console.log(gameCounter);// 101
+
+
+let num = 200;
+numval = ++num; // preincrement
+console.log(numval); // 201
+console.log(Number) // 201
+
 
 
