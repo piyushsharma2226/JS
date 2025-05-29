@@ -71,8 +71,37 @@ const myFunction = function(){
 
 //--------------------------------------------------------------------------------
 
+/* How Memory works in JavaScript?? 
 
+1. Stack (Used in Primitive data types)
+         (Gives us a copy value)
 
+2. Heap (Used in Non-primitive data types)
+        (Gives us a reference value (Original Value))
 
+*/
+
+//---------------------------------------------------------------------------------
+//STACK
+let myName = "Piyush Sharma";
+let myAnotherName = myName;
+myAnotherName = "Pishta";
+
+console.log(myName);
+console.log(myAnotherName);
+
+//---------------------------------------------------------------------------------
+// HEAP
+let userOne = {
+    email:"user4@gmial.com",
+    age:23,
+    upi: "user@ybl",
+};
+
+let userTwo = userOne;
+userTwo.email = "piyush@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
